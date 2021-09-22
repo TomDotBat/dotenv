@@ -41,3 +41,5 @@ publishing {
         }
     }
 }
+
+tasks.withType(PublishToMavenRepository) { it.dependsOn test }
