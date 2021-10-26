@@ -1,4 +1,4 @@
-package net.forgium.dotenv;
+package dev.tomdotbat.dotenv;
 
 import java.io.File;
 import java.io.IOException;

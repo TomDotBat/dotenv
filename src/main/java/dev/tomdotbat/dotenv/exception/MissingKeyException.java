@@ -1,7 +1,7 @@
-package net.forgium.dotenv.exceptions;
+package dev.tomdotbat.dotenv.exception;
 
 /**
- * An Exception used by the Config when a key that isn't present was attempted to be accessed.
+ * An Exception used when the Configuration tries to access a key that isn't present.
  */
 public class MissingKeyException extends Exception {
     /**

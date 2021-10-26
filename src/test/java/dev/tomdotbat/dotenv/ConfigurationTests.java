@@ -1,8 +1,7 @@
-package net.forgium.dotenv;
+package dev.tomdotbat.dotenv;
 
-import net.forgium.dotenv.exceptions.BooleanFormatException;
-import net.forgium.dotenv.exceptions.MissingKeyException;
-import org.junit.jupiter.api.AfterAll;
+import dev.tomdotbat.dotenv.exception.BooleanFormatException;
+import dev.tomdotbat.dotenv.exception.MissingKeyException;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

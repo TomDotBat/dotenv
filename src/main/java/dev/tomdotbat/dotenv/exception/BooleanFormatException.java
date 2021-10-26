@@ -1,7 +1,7 @@
-package net.forgium.dotenv.exceptions;
+package dev.tomdotbat.dotenv.exception;
 
 /**
- * An Exception used by the Config when a Boolean was failed to be parsed from a String.
+ * An Exception used by the Configuration when a Boolean fails to be parsed from a String.
  */
 public class BooleanFormatException extends Exception {
     /**
